@@ -1,0 +1,21 @@
+body {
+    background-image: url(../img/hatter2.jpeg);
+    background-size: cover;
+}
+div{
+    /*dobozt középre*/
+    margin: 10px auto;
+    width: 80%;
+    /*dobozon belül középre*/
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+table{
+    width: 100%;
+    background-color: rgb(224, 202, 202);
+
+}
+tr:nth-child(odd){
+    background-color:rgb(4, 58, 58);
+    color: white;
+}
